@@ -5,12 +5,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/flkt-components.umd.cjs",
-  "module": "./dist/flkt-components.js",
+  "main": "./dist/ds-components.umd.cjs",
+  "module": "./dist/ds-components.js",
   "exports": {
     ".": {
-      "import": "./dist/flkt-components.js",
-      "require": "./dist/flkt-components.umd.cjs"
+      "import": "./dist/ds-components.js",
+      "require": "./dist/ds-components.umd.cjs"
     }
   },
   "scripts": {
@@ -24,5 +24,13 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "vite": "^4.1.4"
-  }
+  },
+  "author": "flkt <flkt.crnpio@gmail.com>",
+  "keywords": [
+    "vue-library",
+    "componets",
+    "responsive",
+    "accesibility",
+    "design-system"
+  ]
 }
