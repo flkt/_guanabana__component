@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/components/index.js'),
-      name: 'ds-components',
-      fileName: 'ds-components',
+      name: 'guanabana-component',
+      fileName: 'guanabana-component',
     },
     rollupOptions: {
       external: ['vue'],

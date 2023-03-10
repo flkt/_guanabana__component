@@ -1,16 +1,13 @@
 {
-  "name": "ds_components",
+  "name": "guanabana-component",
   "version": "0.0.1",
   "type": "module",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/ds-components.umd.cjs",
-  "module": "./dist/ds-components.js",
+  "main": "./dist/guanabana-component.umd.cjs",
+  "module": "./dist/guanabana-component.js",
   "exports": {
     ".": {
-      "import": "./dist/ds-components.js",
-      "require": "./dist/ds-components.umd.cjs"
+      "import": "./dist/guanabana-component.js",
+      "require": "./dist/guanabana-component.umd.cjs"
     }
   },
   "scripts": {
@@ -18,19 +15,34 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "files": [
+    "dist",
+    "src/components"
+  ],
   "dependencies": {
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "guanabana-style": "github:flkt/_guanabana__style",
     "vite": "^4.1.4"
   },
-  "author": "flkt <flkt.crnpio@gmail.com>",
+  "author": {
+    "name": "flkt",
+    "email": "flkt.crnpio@gmail.com",
+    "url": "https://flkt.mx/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flkt/_guanabana__component.git"
+  },
   "keywords": [
     "vue-library",
     "componets",
     "responsive",
     "accesibility",
-    "design-system"
+    "design-system",
+    "guanabana",
+    "module"
   ]
 }
