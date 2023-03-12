@@ -1,16 +1,32 @@
-import { openBlock as r, createElementBlock as s, renderSlot as _ } from "vue";
-const a = (t, e) => {
-  const o = t.__vccOpts || t;
-  for (const [n, c] of e)
-    o[n] = c;
-  return o;
-}, f = {}, l = { type: "button" };
-function u(t, e) {
-  return r(), s("button", l, [
-    _(t.$slots, "default")
+import { openBlock as c, createElementBlock as s, renderSlot as u, createTextVNode as d } from "vue";
+const r = (e, t) => {
+  const n = e.__vccOpts || e;
+  for (const [_, a] of t)
+    n[_] = a;
+  return n;
+}, i = {}, f = { type: "button" };
+function p(e, t) {
+  return c(), s("button", f, [
+    u(e.$slots, "default"),
+    d(" componente ")
   ]);
 }
-const d = /* @__PURE__ */ a(f, [["render", u]]), i = { ButtonTest: d };
+const l = /* @__PURE__ */ r(i, [["render", p]]), m = {}, h = {
+  type: "text",
+  value: "",
+  placeholder: "ejeles"
+};
+function w(e, t) {
+  return c(), s("input", h);
+}
+const x = /* @__PURE__ */ r(m, [["render", w]]), y = { ButtonTest: l, InputTest: x }, o = y, b = {
+  install(e) {
+    Object.keys(o).forEach((t) => {
+      e.component(t, o[t]);
+    });
+  }
+};
+typeof window < "u" && window.Vue && window.Vue.use(b);
 export {
-  i as default
+  b as default
 };

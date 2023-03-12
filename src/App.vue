@@ -1,7 +1,7 @@
 <script setup>
-import ButtonTest from '@/components/ButtonTest/ButtonTest.vue'
+import ButtonTest from '@/components/ButtonTest.vue'
 </script>
 
 <template>
-  <ButtonTest>hola</ButtonTest>
+  <button-test>hola</button-test>
 </template>

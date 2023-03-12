@@ -1,3 +1,4 @@
-import ButtonTest from '@/components/ButtonTest/ButtonTest.vue'
+import ButtonTest from '@/components/ButtonTest.vue'
+import InputTest from '@/components/InputTest.vue'
 
-export default { ButtonTest }
+export default { ButtonTest, InputTest }

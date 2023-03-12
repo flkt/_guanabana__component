@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/components/index.js'),
+      entry: resolve(__dirname, 'src/index.js'),
       name: 'guanabana-component',
       fileName: 'guanabana-component',
     },
