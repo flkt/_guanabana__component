@@ -1,6 +1,6 @@
 {
   "name": "guanabana-component",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "main": "./dist/guanabana-component.umd.cjs",
   "module": "./dist/guanabana-component.js",
